@@ -4,6 +4,7 @@ Traditional Deep Learning models are fundamentally passive. They pass data blind
 
 **MACRO-DREADNOUGHT** is a custom Mixture-of-Experts (MoE) architecture built from absolute zero to reject standard backpropagation. It is a dynamic, self-mutating routing matrix that calculates its own confusion in real-time, traps the exact tensors it fails to understand, and violently rewrites its own structural DNA during runtime to hunt its failures.
 
+📖 **Read the Master Blueprint:** The complete theoretical physics, domain segregation logic, and architectural philosophy governing this engine are documented in the [WHITEPAPER.md](WHITEPAPER.md).
 ## ⚙️ The Core Engine
 
 The architecture is divided into four primary physical systems:
