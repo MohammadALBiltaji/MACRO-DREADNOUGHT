@@ -59,4 +59,4 @@ This guarantees that the underdog heads never starve. They are kept on life supp
 * **The Effect:** It completely eliminates VRAM "Dead Space." Rejected features are recycled, ensuring that high-resolution details survive the entire depth of the 10-layer dreadnought.
 
 ---
-*Authored by the Architect.*
+*Authored by Mohammad AL-Biltaji.*
