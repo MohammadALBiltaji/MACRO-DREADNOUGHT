@@ -11,7 +11,7 @@ The architecture is divided into four primary physical systems:
 
 ### 1. SpLR_V2 (The Activation Physics)
 A custom, dynamic activation function: `f(x) = a * x * e^(-k x^2) + c * x`. 
-Unlike standard ReLUs or Sigmoids, SpLR_V2 calculates its own Shannon Entropy per forward pass. It actively widens or chokes the mathematical gradient of the layer based on the network's real-time confidence, acting as a localized, non-linear feature selector.
+Unlike standard Activation Functions, SpLR_V2 calculates its own Shannon Entropy per forward pass. It actively widens or chokes the mathematical gradient of the layer based on the network's real-time confidence, acting as a localized, non-linear feature selector.
 
 ### 2. HighwayLayerV3 (The 3-Lane MoE Router)
 Before processing a feature map, the network pools the spatial data, calculates normalized entropy, and actively routes the tensor across three specialized lanes:
