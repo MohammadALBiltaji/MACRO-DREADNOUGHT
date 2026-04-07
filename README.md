@@ -49,3 +49,6 @@ x = torch.randn(16, 3, 64, 64)
 # Execute the Forward Pass
 # Returns the class logits and the real-time entropy/routing metrics per layer
 outputs, metrics = model(x)
+```
+## 📊 Compute Constraints & Scaling
+Current benchmarks (Tiny ImageNet) were executed under strict independent compute constraints (Single Tesla T4 GPU, 50 Epochs). The DNA Mutation Engine and 70/30 Elastic Router demonstrate aggressive early-stage convergence. The architecture is mathematically unbounded and open for high compute scaling.
