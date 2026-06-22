@@ -1,6 +1,6 @@
 # MACRO-DREADNOUGHT 
 
-Traditional Deep Learning models are fundamentally passive. They pass data blindly forward through static layers and rely purely on the law of averages during backpropagation to fix their mistakes. They lack mode collapse, convolutional amnesia, and rigid geometric blind spots.
+Traditional Deep Learning models are fundamentally passive. They pass data blindly forward through static layers and rely purely on the law of averages during backpropagation to fix their mistakes. They suffer from mode collapse, convolutional amnesia, and rigid geometric blind spots.
 
 **MACRO-DREADNOUGHT** is a custom Mixture of Experts (MoE) architecture built from absolute zero. It is a dynamic, self mutating routing matrix that calculates its own confusion in real time, traps the exact tensors it fails to understand, and violently applies Targeted Weight Re initialization during runtime to hunt its failures.
 
