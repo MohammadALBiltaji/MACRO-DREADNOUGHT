@@ -1,5 +1,6 @@
 # MACRO-DREADNOUGHT
-v1, my first project, known issues listed
+v1, my first project, Im aware of the existence of multiple issues will be fixed later:D
+
 **MACRO-DREADNOUGHT** is an experimental neural-network architecture exploring a simple question:
 
 > **What happens if a neural network is given mechanisms to observe parts of its own internal behavior and react when those parts become stagnant, underused, overly dominant, or repeatedly associated with failure?**
